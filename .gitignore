@@ -1,0 +1,10 @@
+.env*
+*.token
+token
+*.db
+*.sqlite*
+__pycache__/
+*.egg-info/
+build/
+dist/
+.venv/

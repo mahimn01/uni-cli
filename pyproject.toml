@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uni-cli"
+version = "0.1.0"
+description = "Read-only command line for your Canvas courses: deadlines, grades, announcements and what changed."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+
+[project.scripts]
+uni = "uni_cli.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
